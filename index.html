@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+    <body>
+      <div class="container">
+        <div class="jumbotron">
+          <h2>Transportation Survey</h2>
+        </div>
+          <form id="fortune_teller">
+           <div class="form-group">
+             <p>In the past year, what fortunate events have happened to you?</p>
+             <input type="checkbox" name="good-fortune" value="penny"> Have you found a heads up penny?<br>
+             <input type="checkbox" name="good-fortune" value="gas">While on Empty gas tank, did you make it to your destination?<br>
+             <input type="checkbox" name="good-fortune" value="Disney">Did Mickey want to give you a hug?<br>
+             <input type="checkbox" name="good-fortune" value="bus">Did someone give up their seat for you on the bus?<br>
+             <input type="checkbox" name="good-fortune" value="wedding">Did you catch the bouquet at a wedding?<br>
+             <input type="checkbox" name="good-fortune" value="coding">Did Javascript make sense to you today?<br>
+             <input type="checkbox" name="good-fortune" value="taxi">Did the taxi driver take the bus route?<br>
+             <input type="checkbox" name="good-fortune" value="Uber">Did your Uber driver not have conservative radio on today?<br>
+             <input type="checkbox" name="good-fortune" value="skateboard">Did you stick that sick move brah!?<br>
+           </div>
+           <div class="form-group">
+             <p>In the past year, what unfortunate events have happened to you?:</p>
+             <input type="checkbox" name="bad-fortune" value="mold"> Has mold grown in your house?<br>
+             <input type="checkbox" name="bad-fortune" value="insect">Has a plague of insects swarmed you?<br>
+             <input type="checkbox" name="bad-fortune" value="mirror">Have you broken a mirro?r<br>
+             <input type="checkbox" name="bad-fortune" value="keys">Have you locked your keys inside your car?<br>
+             <input type="checkbox" name="bad-fortune" value="bus">Have you JUST missed the bus?<br>
+             <input type="checkbox" name="bad-fortune" value="train">Did you put a penny on a train track?<br>
+             <input type="checkbox" name="bad-fortune" value="ladder">Did you walk under a ladder?<br>
+           </div>
+           <button type="submit">Submit Survey:</button>
+          </form>
+         <span id="good-responses">
+           <p><b>Good Fortune:</b></p>
+         </span>
+         <br>
+         <span id="bad-responses">
+           <p><b>Bad Fortune:</b></p>
+         </span>
+      </div>
+    </body>
+  </html>
